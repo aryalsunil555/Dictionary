@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CapitalActivity">
-
-
-    <TextView
-        android:id="@+id/tvCapital"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"/>
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
     <Button
+        android:id="@+id/btnDCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnOpen"/>
+        android:text="Display Country"
+        />
+    <Button
+        android:id="@+id/btnACountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Country"/>
 
 </LinearLayout>
